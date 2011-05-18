@@ -30,3 +30,8 @@ post '/' do
 	redirect '/'
 end
 
+get '/:id' do
+	@note = Note.get params[:id]
+	@title = "Edit Note ##{params[:id]}"
+	erb :edit
+end
