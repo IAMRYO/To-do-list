@@ -3,7 +3,7 @@ body {
 	width: 640px;
 }
 
-header { 
+header {
 	text-align: center;
 	margin: 0 0 20px;
 }
@@ -25,11 +25,11 @@ header h2 {
 }
 
 #main {
-	margin: 0,0 20px;
+	margin: 0 0 20px;
 }
 
 #add {
-	margin: 0,0 20px;
+	margin: 0 0 20px;
 }
 
 #add textarea {
@@ -54,7 +54,7 @@ header h2 {
 	border: 1px solid #ddd;
 }
 
-#edit input[type=sumbit] {
+#edit input[type=submit] {
 	height: 50px;
 	width: 100px;
 	margin: -50px 0 0;
@@ -64,10 +64,7 @@ header h2 {
 
 #edit input[type=checkbox] {
 	height: 50px;
-	width: 100px;
-	margin: -50px 0 0;
-	border: 1px solid #ddd;
-	background: white;
+	width: 20px;
 }
 
 article {
@@ -104,8 +101,8 @@ p {
 
 .links {
 	font-size: 1.8em;
-	font-height: 0.8em;
-	float: rightright;
+	line-height: 0.8em;
+	float: right;
 	margin: -10px 0 0;
 }
 
