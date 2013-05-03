@@ -30,7 +30,7 @@ post '/' do
 end
 
 get '/:id' do
-	@note = Note.get params[:id]
+	@note = Note.find(params[:id])
 	@title = "Edit note ##{params[:id]}"
 	erb :edit
 end
